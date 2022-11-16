@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 0px 1px black inset;
+}
+
+.bg-green {
+    background-color: #1abc9c;
+}
+
+.bg-darkblue {
+    background-color: #2c3e50;
+}
+
+
+/* testa della pagina */
+header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+header .card-menu, header .card-logo {
+    height: 50px;
+}
+
+/* corpo della pagina */
+
+/* start bootstrap */
+.start .card-start {
+    height: 500px;
+}
+
+/* portfolio */
+.portfolio .card-title {
+    height: 100px;
+}
+
+.portfolio .card-img {
+    height: 200px;
+}
+
+/* about */
+.about .container-sm {
+    padding: 0 100px;
+}
+
+.about .card-title, .about .card-button {
+    height: 100px;
+}
+
+.about .card-description {
+    height: 300px;
+}
+
+/* contatti */
+.contacts .container-sm {
+    padding: 0 100px;
+}
+
+.contacts .card-info-contacts {
+    height: 300px;
+}
+
+/* fondo della pagina */
+/* info */
+.info {
+    background-color: #3a546d;
+}
+
+.info .card-description {
+    height: 100px;
+}
+
+/* copyright */
+.copyright .card-info {
+    height: 50px;
+}
