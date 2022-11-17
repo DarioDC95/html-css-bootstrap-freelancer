@@ -130,6 +130,7 @@ header .nav-item a {
 }
 
 /* copyright */
-.copyright .card-info {
-    height: 50px;
+.copyright span {
+    font-size: 13px;
+    color: white;
 }
