@@ -32,19 +32,44 @@ header .nav-item a {
     display: block;
 }
 
+/* stella */
+.star {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.star .strap {
+    display: inline-block;
+    width: 20%;
+    height: 3px;
+    color: white;
+    background-color: white;
+    vertical-align: super;
+    border-radius: 20px;
+}
+/* fine stella */
+
 /* corpo della pagina */
 
 /* start bootstrap */
+.start {
+    padding-top: 100px;
+}
+
 .start .card-start {
-    height: 500px;
+    text-align: center;
+}
+
+.start img {
+    width: 230px;
 }
 
 /* portfolio */
-.portfolio .card-title {
+#portfolio .card-title {
     height: 100px;
 }
 
-.portfolio .card-img {
+#portfolio .card-img {
     height: 200px;
 }
 

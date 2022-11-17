@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>START BOOTSTRAP</title>
     <link rel="stylesheet" href="./css/style.css">
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
@@ -20,14 +22,14 @@
                     <div class="card-logo">
                         <nav class="navbar navbar-expand-lg">
                             <div class="container-fluid">
-                              <a class="fs-4 fw-bold underline-none text-white" href="#">START BOOTSTRAP</a>
+                              <a class="fs-3 fw-bold underline-none text-white" href="#">START BOOTSTRAP</a>
                               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                               </button>
                               <div class="collapse navbar-collapse justify-content-lg-end" id="navbarNav">
                                 <ul class="navbar-nav">
                                   <li class="nav-item">
-                                    <a class="fs-6 fw-semibold underline-none text-white" aria-current="page" href="#">PORTFOLIO</a>
+                                    <a class="fs-6 fw-semibold underline-none text-white" aria-current="page" href="#portfolio">PORTFOLIO</a>
                                   </li>
                                   <li class="nav-item">
                                     <a class="fs-6 fw-semibold underline-none text-white" href="#">ABOUT</a>
@@ -49,12 +51,19 @@
     <main>
 
         <!-- start bootstrap -->
-        <section class="start bg-green py-5">
+        <section class="start bg-green pb-5">
             <div class="container-md">
                 <div class="row">
                     <div class="col">
                         <div class="card-start">
-
+                            <img class="mb-3" src="./img/avatar.svg" alt="Avatar">
+                            <h1 class="mb-3 text-white">START BOOTSTRAP</h1>
+                            <div class="star mb-2">
+                                <span class="strap"></span>
+                                <i class="fa-solid fa-star fs-3 text-white"></i>
+                                <span class="strap"></span>
+                            </div>  
+                            <div class="fs-5 text-white">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</div>  
                         </div>
                     </div>
                 </div>
@@ -62,7 +71,7 @@
         </section>
 
         <!-- Portfolio -->
-        <section class="portfolio py-5">
+        <section id="portfolio" class="py-5">
             <div class="container-md">
                 <div class="row mb-4">
                     <div class="col">
