@@ -34,56 +34,36 @@ header .nav-item a {
 
 /* stella */
 .star {
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
 }
 
 .star .strap {
     display: inline-block;
-    width: 20%;
+    width: 25%;
     height: 3px;
-    color: white;
-    background-color: white;
     vertical-align: super;
     border-radius: 20px;
 }
 /* fine stella */
 
 /* corpo della pagina */
+#portfolio img {
+    border-radius: 10px;
+}
 
 /* start bootstrap */
 .start {
     padding-top: 100px;
 }
 
-.start .card-start {
-    text-align: center;
-}
-
 .start img {
     width: 230px;
-}
-
-/* portfolio */
-#portfolio .card-title {
-    height: 100px;
-}
-
-#portfolio .card-img {
-    height: 200px;
 }
 
 /* about */
 .about .container-md {
     padding: 0 100px;
-}
-
-.about .card-title, .about .card-button {
-    height: 100px;
-}
-
-.about .card-description {
-    height: 300px;
 }
 
 /* contatti */
