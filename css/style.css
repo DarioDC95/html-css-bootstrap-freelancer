@@ -87,7 +87,6 @@ header .nav-item a {
 
 #contacts form ::placeholder {
     color: black;
-    font-weight: 600;
 }
 
 #contacts form textarea {
